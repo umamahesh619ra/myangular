@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" >Mysite</a>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active" >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <a class="form-control mr-sm-1" [routerLink]="['/login']" routerLinkActive="router-link-active" >Login</a>
+      <a class="form-control mr-sm-1" [routerLink]="['/signup']" routerLinkActive="router-link-active" >Signup</a>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>

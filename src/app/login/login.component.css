@@ -1,0 +1,11 @@
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+form {
+margin-left: 35%;
+margin-right: 35%;
+margin-top: 5%;
+}
