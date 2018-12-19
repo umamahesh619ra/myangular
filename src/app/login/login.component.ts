@@ -11,12 +11,13 @@ private email = '';
 private password = '';
 details: any [] = [];
 click: boolean;
-@LocalStorage()userNote = 'Leave your note here';
-@SessionStorage() title = 'Homepage';
-@CookieStorage() fuck = 'mylife' ;
+@LocalStorage()emaildetails = '';
+@LocalStorage()passworddetails = '';
 login() {
   console.log('clicked') ;
   this.details.push({mail: this.email, pass: this.password});
+  this.emaildetails = this.email;
+  this.passworddetails = this.password;
 }
 
   ngOnInit() {
