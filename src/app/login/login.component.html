@@ -6,15 +6,16 @@
       <label for="inputPassword" class="sr-only">Password</label>
       <input type="password" [(ngModel)]="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
       <div class="checkbox mb-3">
-        <label class="my" [ngClass] = "{my : true}">Me
-          <input type="checkbox" autocomplete="off" checked>
+        <label class="my" [ngClass] = "{my : check}">Me
+          <input type="checkbox" autocomplete="off" >
           <span class="glyphicon glyphicon-ok"></span>
         </label>
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login()">Sign in</button>
+      <div>If Not a user <a [routerLink]="['/signup']" routerLinkActive="router-link-active"  >SignUp</a></div>
       </form>
   <div class="footer" >
     <p class="pageinfo">&copy; 2017-2018</p>
-  <p [ngStyle]="{color: click ? 'green' : 'red'}">hi user your mail id : {{email|test}}</p>
+  <p [ngStyle]="{color: click ? 'green' : 'red'}" class="pageinfo">hi user your mail id : {{email}}</p>
   </div>
   

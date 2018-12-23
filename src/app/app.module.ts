@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { TestPipe } from './test.pipe';
 import { TestdDirective } from './testd.directive';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { TestdDirective } from './testd.directive';
     TestPipe,
     TestdDirective,
     FormGroupName,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,

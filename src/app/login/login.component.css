@@ -9,3 +9,17 @@ margin-left: 35%;
 margin-right: 35%;
 margin-top: 5%;
 }
+.footer{
+	margin-block-start: 1em;
+	background-color: dimgrey;
+	align-content: center;
+	position: relative;
+}
+.pageinfo{
+align-content: center;
+position: relative;
+text-align: center;
+}
+.my{
+	color: rgb(216, 213, 24);
+}

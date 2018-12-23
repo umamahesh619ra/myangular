@@ -6,6 +6,8 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { ERROR_COMPONENT_TYPE } from '@angular/compiler';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
 {path: '', component: NavComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
 {path: 'about', component: AboutComponent},
 {path: 'login', component: LoginComponent},
 {path: 'signup', component: SignupComponent},
+{path: '**', component: ErrorComponent }
+
 ];
 
 @NgModule({

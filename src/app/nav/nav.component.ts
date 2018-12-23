@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 list = ['Home', 'About', 'ContactUs'];
-inputtext;
   constructor() { }
 
   ngOnInit() {
