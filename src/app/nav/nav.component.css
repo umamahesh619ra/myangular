@@ -1,8 +1,13 @@
-nav{
-    background-image: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-wallpaper-images-9-desktop-background.jpg)
-    
-}
 .navbar-light{
     color: yellowgreen;
     margin: 3px;
 }
+nav { 
+    background: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-wallpaper-images-9-desktop-background.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-color: cyan;
+    border-bottom-color: yellow;
+  }

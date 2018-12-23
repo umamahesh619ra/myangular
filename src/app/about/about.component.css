@@ -1,0 +1,13 @@
+.text-center{
+    margin: 3em;
+}
+div{
+    background-blend-mode: lighten;
+}
+body{
+    background-image: url(http://www.hdwallpaperspulse.com/wp-content/uploads/2012/10/Autumn_Theme_-_Windows_7_Backgrounds.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
