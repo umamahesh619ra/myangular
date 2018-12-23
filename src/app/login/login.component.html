@@ -16,6 +16,7 @@
       </form>
   <div class="footer" >
     <p class="pageinfo">&copy; 2017-2018</p>
-  <p [ngStyle]="{color: click ? 'green' : 'red'}" class="pageinfo">hi user your mail id : {{email}}</p>
+  <p [ngStyle]="{color: click ? 'green' : 'red'}" class="pageinfo">hi user your mail id : {{email|test:20}}</p>
   </div>
+  
   

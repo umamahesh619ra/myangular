@@ -1,6 +1,8 @@
 nav{
+    background-image: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-wallpaper-images-9-desktop-background.jpg)
     
-    font-style: italic;
-    background-image: url(http://10steps.sg/wp-content/uploads/2012/11/White-christmas-light-background.jpg)
-    
+}
+.navbar-light{
+    color: yellowgreen;
+    margin: 3px;
 }
