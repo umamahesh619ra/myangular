@@ -7,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   urls = ['https://developers.google.com/speed/webp/gallery1'];
+  message = 'test message from me';
 
   constructor() { }
 
   ngOnInit() {
   }
-
+  save(text) {
+   this.message = text ;
+  }
 }
